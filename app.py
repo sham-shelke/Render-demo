@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-model_path = 'student_placement'
+model_path = 'place_model.pkl'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
